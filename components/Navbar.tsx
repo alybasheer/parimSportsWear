@@ -15,12 +15,12 @@ export default function Navbar() {
                     <Link href="/" className="flex items-center space-x-3">
                         <Image
                             src="/assets/images/logos/parimm.jpg"
-                            alt="Parim Sportswear"
+                            alt="Premium Sportswear"
                             width={45}
                             height={45}
                             className="object-contain"
                         />
-                        <span className="text-lg font-light text-gray-900 tracking-tight" style={{ letterSpacing: '-0.01em' }}>Parim Sportswear</span>
+                        <span className="text-lg font-light text-gray-900 tracking-tight" style={{ letterSpacing: '-0.01em' }}>Premium Sportswear</span>
                     </Link>
 
                     {/* Desktop Navigation */}
@@ -34,8 +34,8 @@ export default function Navbar() {
                         <Link href="#services" className="text-xs uppercase tracking-[0.15em] text-gray-600 hover:text-gray-900 font-medium transition-colors">
                             Services
                         </Link>
-                        <Link href="#contact" className="px-8 py-3 bg-gray-900 text-white text-xs uppercase tracking-[0.15em] font-medium hover:bg-black transition-all duration-300">
-                            Contact
+                        <Link href="https://wa.me/923466339534" target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-gray-900 text-white text-xs uppercase tracking-[0.15em] font-medium hover:bg-black transition-all duration-300">
+                            WhatsApp
                         </Link>
                     </div>
 
@@ -97,11 +97,13 @@ export default function Navbar() {
                                 Services
                             </Link>
                             <Link
-                                href="#contact"
+                                href="https://wa.me/923466339534"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="px-8 py-3 bg-gray-900 text-white text-xs uppercase tracking-[0.15em] font-medium hover:bg-black transition-all duration-300 inline-block text-center w-fit"
                                 onClick={() => setIsOpen(false)}
                             >
-                                Contact
+                                WhatsApp
                             </Link>
                         </div>
                     </div>

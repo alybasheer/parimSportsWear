@@ -64,7 +64,7 @@ export default function Home() {
               <div className="grid md:grid-cols-2 gap-20 items-start">
                 <div className="space-y-8">
                   <p className="text-gray-500 text-[15px] font-light leading-relaxed">
-                    Based in Sialkot, Pakistan—the global hub of sports manufacturing—Parim Sportswear brings years of expertise in creating premium activewear, custom jerseys, and gym wear for retailers worldwide.
+                    Based in Sialkot, Pakistan—the global hub of sports manufacturing—Premium Sportswear brings years of expertise in creating premium activewear, custom jerseys, and gym wear for retailers worldwide.
                   </p>
                   <p className="text-gray-500 text-[15px] font-light leading-relaxed">
                     We're a family-run business built on professionalism, quality, and ethical manufacturing. From small boutique orders to large-scale bulk production, we treat every client with the same dedication and attention to detail.
@@ -217,130 +217,144 @@ export default function Home() {
           </div>
         </section>
 
-{/* Why Choose Us Section - Minimalist Luxury */}
-        <section className="section-padding bg-white">
+        {/* Why Choose Us Section - LAAM/Zara Editorial Style */}
+        <section className="py-24 md:py-32 bg-white border-t border-gray-100">
           <div className="container-custom">
-            {/* Section Header */}
-            <div className="text-center mb-24 px-4 mx-auto">
-              <p className="text-xs uppercase tracking-[0.2em] text-gray-400 mb-6 font-medium">Why Partner With Us</p>
-              <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-10" style={{ letterSpacing: '-0.02em' }}>
-                Excellence in Every Stitch
-              </h2>
-            </div>
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-24">
+              {/* Left: Sticky Header */}
+              <div className="lg:w-1/3 lg:sticky lg:top-32 h-fit">
+                <p className="text-[11px] uppercase tracking-[0.25em] text-gray-400 mb-6 font-medium">The Premium Standard</p>
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 leading-tight tracking-tight mb-8" style={{ letterSpacing: '-0.02em' }}>
+                  Excellence in <br />Every Stitch
+                </h2>
+                <div className="w-12 h-[1px] bg-gray-900"></div>
+              </div>
 
-            <div className="flex justify-center w-full">
-              <div className="max-w-5xl w-full">
-                {/* Features Grid - Clean 2x2 */}
-                <div className="grid md:grid-cols-2 gap-x-24 gap-y-24 mx-auto" style={{ width: 'fit-content' }}>
+              {/* Right: Premium List */}
+              <div className="lg:w-2/3 space-y-12 md:space-y-16 mt-4 lg:mt-0">
                 {/* Feature 1 */}
-                <div className="group px-6 py-8 text-center border border-gray-900">
-                  <div className="flex flex-col items-center w-full">
-                    <div className="flex-shrink-0 w-16 h-16 flex items-center justify-center border border-gray-900 transition-all duration-300 group-hover:bg-gray-900 mb-6">
-                      <svg className="w-7 h-7 text-gray-900 transition-colors group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
+                <div className="group border-b border-gray-100 pb-12 transition-colors hover:border-gray-900">
+                  <div className="flex flex-col md:flex-row gap-4 md:gap-12 md:items-start">
+                    <span className="text-xs font-medium text-gray-300 w-12 pt-1.5 transition-colors group-hover:text-gray-900">01</span>
+                    <div>
+                      <h3 className="text-2xl md:text-3xl font-light text-gray-900 mb-4 tracking-tight">Premium Quality</h3>
+                      <p className="text-gray-500 leading-relaxed text-[15px] font-light max-w-xl transition-colors group-hover:text-gray-700">
+                        Uncompromising materials and precision craftsmanship in every piece we manufacture. We source only the finest fabrics to ensure longevity and superior performance for your sportswear.
+                      </p>
                     </div>
-                    <h3 className="text-xl font-medium text-gray-900 mb-5 tracking-tight">Premium Quality</h3>
-                    <p className="text-gray-500 leading-relaxed text-[15px]">Uncompromising materials and precision craftsmanship in every piece we manufacture</p>
                   </div>
                 </div>
 
                 {/* Feature 2 */}
-                <div className="group px-6 py-8 text-center border border-gray-900">
-                  <div className="flex flex-col items-center w-full">
-                    <div className="flex-shrink-0 w-16 h-16 flex items-center justify-center border border-gray-900 transition-all duration-300 group-hover:bg-gray-900 mb-6">
-                      <svg className="w-7 h-7 text-gray-900 transition-colors group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
-                      </svg>
+                <div className="group border-b border-gray-100 pb-12 transition-colors hover:border-gray-900">
+                  <div className="flex flex-col md:flex-row gap-4 md:gap-12 md:items-start">
+                    <span className="text-xs font-medium text-gray-300 w-12 pt-1.5 transition-colors group-hover:text-gray-900">02</span>
+                    <div>
+                      <h3 className="text-2xl md:text-3xl font-light text-gray-900 mb-4 tracking-tight">Bespoke Design</h3>
+                      <p className="text-gray-500 leading-relaxed text-[15px] font-light max-w-xl transition-colors group-hover:text-gray-700">
+                        Your vision realized with meticulous attention to detail and technical expertise. Our pattern masters and designers work closely with you from initial concept sketch to final manufactured product.
+                      </p>
                     </div>
-                    <h3 className="text-xl font-medium text-gray-900 mb-5 tracking-tight">Bespoke Design</h3>
-                    <p className="text-gray-500 leading-relaxed text-[15px]">Your vision realized with meticulous attention to detail and technical expertise</p>
                   </div>
                 </div>
 
                 {/* Feature 3 */}
-                <div className="group px-6 py-8 text-center border border-gray-900">
-                  <div className="flex flex-col items-center w-full">
-                    <div className="flex-shrink-0 w-16 h-16 flex items-center justify-center border border-gray-900 transition-all duration-300 group-hover:bg-gray-900 mb-6">
-                      <svg className="w-7 h-7 text-gray-900 transition-colors group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
+                <div className="group border-b border-gray-100 pb-12 transition-colors hover:border-gray-900">
+                  <div className="flex flex-col md:flex-row gap-4 md:gap-12 md:items-start">
+                    <span className="text-xs font-medium text-gray-300 w-12 pt-1.5 transition-colors group-hover:text-gray-900">03</span>
+                    <div>
+                      <h3 className="text-2xl md:text-3xl font-light text-gray-900 mb-4 tracking-tight">Flexible Scale</h3>
+                      <p className="text-gray-500 leading-relaxed text-[15px] font-light max-w-xl transition-colors group-hover:text-gray-700">
+                        From boutique collections to large-scale production with competitive pricing. We adapt our manufacturing lines to your brand's growth, ensuring consistent quality at any volume.
+                      </p>
                     </div>
-                    <h3 className="text-xl font-medium text-gray-900 mb-5 tracking-tight">Flexible Scale</h3>
-                    <p className="text-gray-500 leading-relaxed text-[15px]">From boutique collections to large-scale production with competitive pricing</p>
                   </div>
                 </div>
 
                 {/* Feature 4 */}
-                <div className="group px-6 py-8 text-center border border-gray-900">
-                  <div className="flex flex-col items-center w-full">
-                    <div className="flex-shrink-0 w-16 h-16 flex items-center justify-center border border-gray-900 transition-all duration-300 group-hover:bg-gray-900 mb-6">
-                      <svg className="w-7 h-7 text-gray-900 transition-colors group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
+                <div className="group pb-4">
+                  <div className="flex flex-col md:flex-row gap-4 md:gap-12 md:items-start">
+                    <span className="text-xs font-medium text-gray-300 w-12 pt-1.5 transition-colors group-hover:text-gray-900">04</span>
+                    <div>
+                      <h3 className="text-2xl md:text-3xl font-light text-gray-900 mb-4 tracking-tight">Global Reach</h3>
+                      <p className="text-gray-500 leading-relaxed text-[15px] font-light max-w-xl transition-colors group-hover:text-gray-700">
+                        Seamless international delivery with operations in Sialkot and Sheffield. Benefit from direct manufacturing costs combined with local European support, communication, and logistics.
+                      </p>
                     </div>
-                    <h3 className="text-xl font-medium text-gray-900 mb-5 tracking-tight">Global Reach</h3>
-                    <p className="text-gray-500 leading-relaxed text-[15px]">Seamless international delivery with operations in Sialkot and Sheffield</p>
                   </div>
-                </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Services Section - Editorial Minimalism */}
-        <section id="services" className="section-padding bg-[#fafafa]">
+        {/* Services Section - Monumental Luxury Style */}
+        <section id="services" className="py-24 md:py-32 bg-white">
           <div className="container-custom">
-            {/* Section Header */}
-            <div className="text-center mb-24 px-4 mx-auto">
-              <p className="text-xs uppercase tracking-[0.2em] text-gray-400 mb-6 font-medium">Our Capabilities</p>
-              <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-10" style={{ letterSpacing: '-0.02em' }}>
-                Manufacturing Solutions
-              </h2>
+            <div className="mb-24 flex flex-col md:flex-row justify-between items-end gap-8">
+              <div>
+                <p className="text-[11px] uppercase tracking-[0.25em] text-gray-400 mb-6 font-medium">What We Do</p>
+                <h2 className="text-4xl md:text-6xl font-light text-gray-900 tracking-tight leading-tight" style={{ letterSpacing: '-0.02em' }}>
+                  Manufacturing<br/>Solutions
+                </h2>
+              </div>
+              <div className="max-w-md hidden md:block">
+                <p className="text-gray-500 font-light text-[15px] leading-relaxed">
+                  Partner with a manufacturer that understands the nuances of premium sportswear. From initial prototype to large-scale retail distribution.
+                </p>
+              </div>
             </div>
 
-            <div className="max-w-6xl mx-auto">
-
-              {/* Services Grid - Elegant 3-column */}
-              <div className="grid md:grid-cols-3 gap-16">
-                {/* Service 1 */}
-                <div className="group bg-white p-14
-                 transition-all duration-500 hover:shadow-lg text-center border border-gray-900">
-                  <div className="mb-8 flex justify-center">
-                   
-                  </div>
-                  <h3 className="text-2xl font-light text-gray-900 mb-6 tracking-tight" style={{ letterSpacing: '-0.01em' }}>Private Labeling</h3>
-                  <p className="text-gray-500 leading-relaxed text-[15px] mb-8">
-                    Elevate your brand with our premium manufacturing. We bring your designs to life with precision and attach your labels to products crafted to perfection.
+            <div className="max-w-7xl mx-auto space-y-32">
+              
+              {/* Capability 1 */}
+              <div className="flex flex-col md:flex-row gap-12 lg:gap-24 items-center">
+                <div className="md:w-5/12 order-2 md:order-1">
+                  <span className="text-[10px] font-medium text-gray-400 mb-8 block tracking-[0.2em] border-b border-gray-200 pb-4">01</span>
+                  <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-6 tracking-tight">Private Labeling</h3>
+                  <p className="text-gray-500 leading-relaxed text-[15px] font-light">
+                    Elevate your brand with our premium manufacturing. We bring your designs to life with absolute precision and seamlessly integrate your branding, tags, and packaging into products crafted to perfection.
                   </p>
-                  <div className="h-[1px] w-8 bg-gray-900 transition-all duration-300 group-hover:w-16 mx-auto"></div>
                 </div>
-
-                {/* Service 2 */}
-                <div className="group bg-white p-12 transition-all duration-500 hover:shadow-lg text-center border border-gray-900">
-                  <div className="mb-8 flex justify-center">
-                    
+                <div className="md:w-7/12 order-1 md:order-2 w-full">
+                  <div className="relative h-[400px] lg:h-[600px] w-full bg-gray-100 overflow-hidden">
+                    <Image src="/assets/images/siteImg.jpeg" alt="Private Labeling Manufacturing" fill className="object-cover" />
                   </div>
-                  <h3 className="text-2xl font-light text-gray-900 mb-6 tracking-tight" style={{ letterSpacing: '-0.01em' }}>Bulk Production</h3>
-                  <p className="text-gray-500 leading-relaxed text-[15px] mb-8">
-                    Large-scale manufacturing with unwavering quality standards. From hundreds to thousands of units, we deliver consistency and excellence at competitive rates.
-                  </p>
-                  <div className="h-[1px] w-8 bg-gray-900 transition-all duration-300 group-hover:w-16 mx-auto"></div>
-                </div>
-
-                {/* Service 3 */}
-                <div className="group bg-white p-12 transition-all duration-500 hover:shadow-lg text-center border border-gray-900">
-                  <div className="mb-8 flex justify-center">
-                    
-                  </div>
-                  <h3 className="text-2xl font-light text-gray-900 mb-6 tracking-tight" style={{ letterSpacing: '-0.01em' }}>Sample Creation</h3>
-                  <p className="text-gray-500 leading-relaxed text-[15px] mb-8">
-                    Perfect your product before full production. We develop detailed prototypes and samples to ensure every element meets your exacting standards.
-                  </p>
-                  <div className="h-[1px] w-8 bg-gray-900 transition-all duration-300 group-hover:w-16 mx-auto"></div>
                 </div>
               </div>
+
+              {/* Capability 2 */}
+              <div className="flex flex-col md:flex-row gap-12 lg:gap-24 items-center">
+                <div className="md:w-7/12 w-full">
+                  <div className="relative h-[400px] lg:h-[600px] w-full bg-gray-100 overflow-hidden">
+                    <Image src="/assets/images/mockup_3img.jpeg" alt="Bulk Production" fill className="object-cover" />
+                  </div>
+                </div>
+                <div className="md:w-5/12">
+                  <span className="text-[10px] font-medium text-gray-400 mb-8 block tracking-[0.2em] border-b border-gray-200 pb-4">02</span>
+                  <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-6 tracking-tight">Bulk Production</h3>
+                  <p className="text-gray-500 leading-relaxed text-[15px] font-light">
+                    Large-scale manufacturing with unwavering quality standards. From hundreds to thousands of units, we deliver consistency, speed, and excellence at highly competitive rates without compromising on detail.
+                  </p>
+                </div>
+              </div>
+
+              {/* Capability 3 */}
+              <div className="flex flex-col md:flex-row gap-12 lg:gap-24 items-center">
+                <div className="md:w-5/12 order-2 md:order-1">
+                  <span className="text-[10px] font-medium text-gray-400 mb-8 block tracking-[0.2em] border-b border-gray-200 pb-4">03</span>
+                  <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-6 tracking-tight">Sample Creation</h3>
+                  <p className="text-gray-500 leading-relaxed text-[15px] font-light">
+                    Perfect your product before committing to full production. We develop highly detailed prototypes and samples to ensure every stitch, fabric choice, and finish meets your exacting standards.
+                  </p>
+                </div>
+                <div className="md:w-7/12 order-1 md:order-2 w-full">
+                  <div className="relative h-[400px] lg:h-[600px] w-full bg-gray-100 overflow-hidden">
+                    <Image src="/assets/images/mockup_1Img.jpeg" alt="Sample Creation Prototypes" fill className="object-cover" />
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
@@ -379,13 +393,13 @@ export default function Home() {
 
                     <div>
                       <p className="text-xs uppercase tracking-[0.2em] text-gray-400 mb-3 font-medium">WhatsApp</p>
-                      <p className="text-gray-900 text-[15px] font-light">+92 XXX XXXXXXX</p>
+                      <p className="text-gray-900 text-[15px] font-light">+923466339534</p>
                     </div>
                   </div>
 
                   <div>
                     <a
-                      href="https://wa.me/92XXXXXXXXX"
+                      href="https://wa.me/923466339534"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block px-12 py-4 bg-gray-900 text-white text-xs uppercase tracking-[0.2em] font-medium hover:bg-black transition-all duration-300"
@@ -481,7 +495,7 @@ export default function Home() {
               <div className="grid md:grid-cols-4 gap-16 mb-20">
                 {/* Brand */}
                 <div className="md:col-span-2">
-                  <h3 className="text-2xl font-light text-white mb-6" style={{ letterSpacing: '-0.01em' }}>Parim Sportswear</h3>
+                  <h3 className="text-2xl font-light text-white mb-6" style={{ letterSpacing: '-0.01em' }}>Premium Sportswear</h3>
                   <p className="text-white/70 text-[15px] font-light leading-relaxed max-w-md">
                     Premium sportswear manufacturing with uncompromising quality and precision craftsmanship
                   </p>
@@ -511,7 +525,7 @@ export default function Home() {
               {/* Bottom Bar */}
               <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p className="text-white/50 text-xs tracking-wide">
-                  © 2026 Parim Sportswear. All rights reserved.
+                  © 2026 Premium Sportswear. All rights reserved.
                 </p>
                 <p className="text-white/50 text-xs tracking-wide">
                   Crafting excellence since 2020
